@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.9;
 
-contract SettingNumbers {
+contract MyContract {
     uint256 private s_number;
 
     constructor(uint _number) {
