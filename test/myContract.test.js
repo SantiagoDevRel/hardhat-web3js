@@ -1,3 +1,5 @@
+//FEEL FREE TO WRITE TEST FOR DEPLOYING, INTERACTING WITH THE CONTRACT (setNumber() and getNumber())
+
 const {
   time,
   loadFixture,

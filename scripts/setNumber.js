@@ -8,9 +8,8 @@ async function main() {
   const contractAddress = "0x5724eeB7495fce0F881A65FF13c46F767686f765";
   const myContract = new hre.web3.eth.Contract(artifacts.abi, contractAddress);
 
-  //make call
-  const _number = await myContract.methods.getNumber().call();
-  console.log("Number:", _number);
+  //make tx
+  //...
 }
 
 main();
